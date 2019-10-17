@@ -1,0 +1,10 @@
+<?php 
+$messages = ['hola','buenos dias','buenas tardes','buenas noches'];
+$names = ['angel','sebastian','carlos','luis','eduardo'];
+foreach ($messages as $message){
+    for ($i=0; $i <count($names) ; $i++) { 
+        echo $message .' '. $names[$i] . '<br>';
+    }
+    echo '<br>';
+}
+?>
